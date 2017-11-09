@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#article-1 {
+  height: 560px;
+  background-image: url('../../images/article-1-image.png');
+  background-position: top;
+  display: flex;
+  justify-content: center;
+}
+
+#article-2 {
+  height: 300px;
+  background-color: white
+}
+
+#article-3 {
+  height: 500px;
+  background-image: url('../../images/article-3-image.png');
+  background-size: cover no-repeat
+}
+
+#article-4 {
+  height: 100px;
+  background-color: #FBD700;
+}
+
+#article-5 {
+  height: 600px;
+  background-image: url('../../images/article-5-image.png');
+  background-size: cover no-repeat;
+}
+
+#logo {
+  background-image: url('../../images/logo.svg');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  flex: 1
+}
+
+#navHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+#background {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#iphone {
+  align-self: flex-end;
+  width: 25%;
+  height: 80%;
+  background-image: url('../../images/iphone.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#description-main {
+  color: white;
+  height: 80%;
+  text-align: left;
+  align-self: flex-end;
+}
+
+#list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+}
+
+#list-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FBD700
+}
+
+#description {
+  padding: 10px;
+}
