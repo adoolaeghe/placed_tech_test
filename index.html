@@ -1,63 +1,145 @@
-<!DOCTYPE html>
-<html>
+
 <head>
   <meta charset="utf-8">
   <title>animation_Test</title>
   <link href="./public/css/style.css" rel="stylesheet">
-</head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"></head>
 <body class="body">
   <div id="header">
-    <div id="logo">
-
+    <div id="container-logo">
+      <img id="header-logo" src="./images/logo.png"></img>
     </div>
-    <ul id="navHeader">
-      <li>HOME<li>
-      <li>CANDIDATES<li>
-      <li>VENUES<li>
-      <li>ABOUT<li>
-      <li>FAQS<li>
-      <li>CONTACT<li>
-      <li>LOGIN<li>
+    <ul id="header-list">
+      <li>
+        <button id="header-list-item-button">HOME</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">CANDIDATES</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">VENUES</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">ABOUT</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">FAQS</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">CONTACT</button>
+      </li>
+      <li>
+        <button id="header-list-item-button">LOGIN</button>
+      </li>
     </ul>
   </div>
-  <div id="article-1">
-    <div id='background'>
-      <div id="iphone"></div>
-      <div id="description-main">
-        <h1> THE RECRUITMENT </br> REVOLUTION </h1>
-        <h2> SAVE TIME AND MONEY. INSTANTLY MATCH & </br> CONNECT TO THE RIGHT STAFF WITH PLACED </h2>
-        <div>
-          <div id='list-item'>
-            <div id='list-number'>1</div>
-            <div id='description'>CREATE A VENUE PROFILE. Only take minutes.</div>
-          </div>
-          <div id='list-item'>
-            <div id='list-number'>2</div>
-            <div id='description'>START POSTING JOBS. By answering industry specific questionnaires.</div>
-          </div>
-          <div id='list-item'>
-            <div id='list-number'>3</div>
-            <div id='description'>VIEW YOUR MATCHES. And filter the search even futher if needed.</div>
-          </div>
-          <div id='list-item'>
-            <div id='list-number'>4</div>
-            <div id='description'>INVITE FOR INTERVIEW. Or short-list and direct message straight away.</div>
-          </div>
-          <div id='list-item'>
-            <div id='list-number'>5</div>
-            <button id='description'>START PLAYING NOW .</button>
-          </div>
+  <main>
+    <div id="article-1">
+      <div id='article-1-container'>
+        <div id="article-1-iphone"></div>
+        <div id="article-1-content">
+          <h1 id="article-1-content-header-main">THE RECRUITMENT</br><b class='header-bold'>REVOLUTION</b></h1>
+          <h2 id="article-1-content-header">SAVE TIME AND MONEY. INSTANTLY MATCH &</br>CONNECT TO THE RIGHT STAFF WITH <b class="header-bold">PLACED</b></h2>
+          <ul id='article-1-list'>
+            <li id='list-item'>
+              <div id='list-item-number'>1</div>
+              <div id='list-item-title'><b class="item-bold">CREATE A VENUE PROFILE.</b> Only take minutes.</div>
+            </li>
+            <li id='list-item'>
+              <div id='list-item-number'>2</div>
+              <div id='list-item-title'><b class="item-bold">START POSTING JOBS.</b> By answering industry specific questionnaires.</div>
+            </li>
+            <li id='list-item'>
+              <div id='list-item-number'>3</div>
+              <div id='list-item-title'><b class="item-bold">VIEW YOUR MATCHES.</b> And filter the search even futher if needed.</div>
+            </li>
+            <li id='list-item'>
+              <div id='list-item-number'>4</div>
+              <div id='list-item-title'><b class="item-bold">INVITE FOR INTERVIEW.</b> Or short-list and direct message straight away.</div>
+            </li>
+            <li id='list-item'>
+              <div id='list-item-number'>5</div>
+              <button id='list-item-button'>START PLACING NOW .</button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+    <div id="article-2">
+      <div id="article-2-col">
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> ADVANCED MATCHING & FILTERING </div>
+          <div id='article-2-item-content'> Our technology allows your search to be narrowed down even futher based on more specified criteria if need be. </div>
+        </div>
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> SIMPLICITY & EFFICIENCY </div>
+          <div id='article-2-item-content'>All candidates and venue profiles are uniform and formatted equally for a seamless and easy-to-use process</div>
+        </div>
+      </div>
+      <div id="article-2-col">
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> FASTER RESPONSE TIME </div>
+          <div id='article-2-item-content'> Our candidates are prompted to respond to interview request within at least 24 hours. saving you a valuable time! </div>
+        </div>
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> QUALITY CONTROL </div>
+          <div id='article-2-item-content'>Prompt notifications and rating systems ensure condidates are still actively looking for work and are scoring well enough to be using the app.</div>
+        </div>
+      </div>
+      <div id="article-2-col">
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> COST EFFECTIVE </div>
+          <div id='article-2-item-content'>Our competitive, all-inclusive monthly subscription fee will save you money, giving you peace of mind that you hard earned revenue is not wasted on unsuitable condidates.</div>
+        </div>
+        <div id="article-2-item">
+          <div id='article-2-item-circle'>
+            <img id='article-2-item-circle-image' src='./images/user.png'></img>
+          </div>
+          <div id='article-2-item-header'> A TOTALLY CENTRALISED PLATFORM </div>
+          <div id='article-2-item-content'>Invite candidates to interviews directly through the app. Direct message them or take some time and shot-list them later!</div>
+        </div>
+      </div>
+    </div>
+    <div id="article-3">
+      <div id="article-3-header-main">WORLD CLASS VENUES ALREADY USING <span class="header-bold">PLACED</span></div>
+      <div id="article-3-header">Sign up to <b class="header-bold">PLACED</b> now for instant matching to the best candidates</div>
+      <img id="article-3-content-image" src="./images/brands.png"></img>
+    </div>
+    <div id="article-4">
+      <h1 id="article-4-header">
+        READY TO START PLACING?
+      </h1>
+      <button id="article-4-button">
+        CLICK HERE TO SIGN UP
+      </button>
+    </div>
+    <div id="article-5">
+      <div id="article-5-content">
+        <h1 id="article-5-header-main">"I BELIEVE THAT </br> PLACED IS THE </br> FUTURE OF </br> RECRUITMENT"</h1>
+        <h2 id="article-5-header">JASON WASS </br> GROUP HEAD CHEF OF </br> POLPO RESTAURANTS</h1>
+        <button id="article-5-button"></button>
+      </div>
+    </div>
+  </main>
+  <div id="footer">
+    <div id="footer-content">Copyright 2015. All Rights Reserved. Privacy Policy Terms&Conditions</div>
+    <button></button>
+    <button></button>
+    <button></button>
   </div>
-  </div>
-  <div id="article-2"></div>
-  <div id="article-3">
-    <div> WORLD CLASS VENUES ALREADY USING PLACED </div>
-  </div>
-  <div id="article-4"></div>
-  <div id="article-5"></div>
-  <div id="footer"></div>
 </body>
-</html>
